@@ -1,0 +1,34 @@
+# Environment files
+.env
+
+# Virtual environments
+churn_venv/
+
+# Dataset files
+Churn_Modelling.csv
+*.csv
+
+# Model and training files
+*.h5
+*.pkl
+churn_model.h5
+churn_scaler.pkl
+label_encoder_gender.pkl
+onehotencoder_geography.pkl
+
+# TensorBoard logs
+logs/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# IDE files
+.vscode/
+
+# OS files
+.DS_Store
